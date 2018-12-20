@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+          <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.11/semantic.min.css"></link>
           {this.props.styleTags}
         </Head>
         <Body>
